@@ -9,6 +9,7 @@ h1 {
   list-style: none;
   overflow-x: auto;
   display: flex;
+  scroll-snap-type: mandatory;
 
   &__item {
     flex-basis: 50vw;
@@ -16,5 +17,6 @@ h1 {
     background-color: tomato;
     margin: 0 1rem;
     padding: 1rem;
+    scroll-snap-align: center;
   }
 }
