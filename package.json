@@ -1,0 +1,30 @@
+{
+  "name": "parcel-scaffold",
+  "version": "1.0.0",
+  "description": "Safari horizontal scroll",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel *.html",
+    "build": "parcel build *.html",
+    "format": "prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MartijnNieuwenhuizen/safari-horizontal-scroll.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MartijnNieuwenhuizen/safari-horizontal-scroll/issues"
+  },
+  "homepage": "https://github.com/MartijnNieuwenhuizen/safari-horizontal-scroll#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "prettier": "2.1.1",
+    "sass": "^1.26.10"
+  },
+  "dependencies": {
+    "@grrr/hansel": "^2.1.0"
+  }
+}
