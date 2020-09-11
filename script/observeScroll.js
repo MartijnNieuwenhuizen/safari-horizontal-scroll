@@ -5,9 +5,9 @@ const handleIntersect = (entries) => {
     const id = entry.target.getAttribute('id')
 
     if (entry.intersectionRatio >= 0.5) {
-      move(id)
+      window.requestAnimationFrame(move(id))
     } else {
-      dim(id)
+      window.requestAnimationFrame(dim(id))
     }
   })
 }

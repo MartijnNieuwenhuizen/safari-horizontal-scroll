@@ -5,7 +5,14 @@ h1 {
   color: goldenrod;
 }
 
-.scroll-container {
+.illustration-container {
+  width: 100vw;
+  height: 50vh;
+  overflow: auto;
+}
+.illustration-container__list {
+  transform: translate3d(0, 0, 0);
+  transition: 0.3s ease-in-out transform;
 }
 
 .scroll-list {
@@ -29,7 +36,6 @@ h1 {
   flex-wrap: wrap;
   width: 100vw;
   height: 50vh;
-  overflow: auto;
 }
 
 .illustration-container__item {
