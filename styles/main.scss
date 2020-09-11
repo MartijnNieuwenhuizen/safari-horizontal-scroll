@@ -1,3 +1,6 @@
+body {
+  margin: 0;
+}
 h1 {
   color: goldenrod;
 }
@@ -19,4 +22,19 @@ h1 {
     padding: 1rem;
     scroll-snap-align: center;
   }
+}
+
+.illustration-container__list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+  height: 50vh;
+  overflow: auto;
+}
+
+.illustration-container__item {
+  width: 20rem;
+  height: 20rem;
+  background-color: lime;
+  margin: 1rem;
 }
